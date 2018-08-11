@@ -14,6 +14,7 @@
 		288DAEC5211796C100689535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288DAEC3211796C100689535 /* LaunchScreen.storyboard */; };
 		288DAED0211796C100689535 /* Posture_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288DAECF211796C100689535 /* Posture_Tests.swift */; };
 		288DAEDB211796C100689535 /* Posture_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288DAEDA211796C100689535 /* Posture_UITests.swift */; };
+		28C5085B211F63D400FA3215 /* posture_man.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5085A211F63D400FA3215 /* posture_man.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		288DAED6211796C100689535 /* Posture+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Posture+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		288DAEDA211796C100689535 /* Posture_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posture_UITests.swift; sourceTree = "<group>"; };
 		288DAEDC211796C100689535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C5085A211F63D400FA3215 /* posture_man.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = posture_man.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				288DAEBC211796C100689535 /* ViewController.swift */,
 				288DAEBE211796C100689535 /* Main.storyboard */,
 				288DAEC1211796C100689535 /* Assets.xcassets */,
+				28C50859211F624000FA3215 /* Assets */,
 				288DAEC3211796C100689535 /* LaunchScreen.storyboard */,
 				288DAEC6211796C100689535 /* Info.plist */,
 			);
@@ -123,6 +126,14 @@
 				288DAEDC211796C100689535 /* Info.plist */,
 			);
 			path = "Posture+UITests";
+			sourceTree = "<group>";
+		};
+		28C50859211F624000FA3215 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				28C5085A211F63D400FA3215 /* posture_man.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				288DAEC5211796C100689535 /* LaunchScreen.storyboard in Resources */,
 				288DAEC2211796C100689535 /* Assets.xcassets in Resources */,
+				28C5085B211F63D400FA3215 /* posture_man.xcassets in Resources */,
 				288DAEC0211796C100689535 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
